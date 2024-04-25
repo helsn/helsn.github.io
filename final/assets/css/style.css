@@ -1,0 +1,157 @@
+menu-button {
+}
+body{
+    font-family: 'Nunito';
+}
+.main{
+    padding: 100px;
+}
+
+h1{
+    font-size:30px;
+    font-weight:normal;
+    text-transform:uppercase;
+    color:#4A5B6D;
+}
+p{
+    font-size: 20px;
+    color: #000000;
+    font-weight: normal;
+    line-height: 1.5;
+}
+
+
+.nav{
+    background-color:#4A5B6D;
+    padding:10px 10px 10px 10px;
+    display: flex;
+    flex-align: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+#logo{
+    padding: 20px;
+    height: 80px;
+    width: auto;
+}
+.AboutUs{
+    display:flex;
+    flex-direction: row;
+}
+.bear{
+    height: 300px;
+    width: auto;
+    padding: 75px;
+}
+
+}
+.menu-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 30px;
+}
+
+h2{
+    font-size:24px;
+    font-weight:normal;
+    text-transform:uppercase;
+    color:#000000;
+}
+.menuItem{
+    word-spacing: 40px;
+    line-height: 1.75;
+    height: 255px;
+    width: 435px;
+    background-color: #EFECEB;
+    display: flex;
+    flex-direction: row:
+}
+
+.menuItem h2{
+    text-align: center;
+    padding: 50px;
+}
+
+.Items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 40px;
+}
+
+.menuItem h2:hover{
+    text-decoration: underline;
+}
+
+.menu-nav a{
+    font-size:30px;
+    text-decoration: none;
+    font-weight:normal;
+    text-transform:uppercase;
+    color:#331106;
+}
+
+  .recipe {
+    width: 100%;
+  }
+  .cover {
+    height: 255px;
+    width: auto;
+  }
+  a{
+    text-decoration: none;
+  }
+
+  @keyframes spin {
+      0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+
+    .cookie {
+      width: 100px;
+      height: 100px;
+      background-color: #fff;
+      border-radius: 50%;
+      position: relative;
+      animation: spin 2s linear infinite;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+
+    .chocolate-chip {
+      width: 10px;
+      height: 10px;
+      background-color: #4A5B6D;;
+      position: absolute;
+      border-radius: 50%;
+    }
+
+      .chip1 {
+        top: 20%;
+        left: 20%;
+      }
+
+      .chip2 {
+        top: 35%;
+        left: 45%;
+      }
+
+      .chip3 {
+        top: 50%;
+        left: 70%;
+      }
+
+      .chip4 {
+        top: 65%;
+        left: 25%;
+      }
+
+      .chip5 {
+        top: 80%;
+        left: 60%;
+      }
